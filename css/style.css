@@ -211,4 +211,9 @@ main {
   main p {
     font-size: 16px;
   }
+
+  .contact-us p {
+    padding: 0;
+    font-size: 16px;
+  }
 }
