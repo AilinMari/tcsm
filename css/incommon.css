@@ -71,8 +71,8 @@ nav {
 
   main h1 {
     font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 60px;
-    margin-left: 10vw;
+    font-size: 48px;
+    margin: 2rem 0 3rem 2rem ;
   }
 
   main h4 {
@@ -80,7 +80,60 @@ nav {
     font-size: 20px;
   }
 
+  .header-box p {
+    margin: 0 0 5rem 0;
+  }
+
   
+.blue-box {
+  background-color: rgba(164, 206, 248, 0.5);
+}
+
+.blue-box img {
+  margin-top: 2rem;
+  max-height: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.red-box {
+  background-color: hsla(21, 61%, 50%, 0.5);
+}
+
+.red-box,
+.green-box,
+.blue-box {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+  padding: 2rem 0 2rem 0;
+  width: 80%;
+}
+
+.red-box img {
+  margin-top: 2rem;
+  max-height: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.green-box {
+  background-color: hwb(49 29% 45% / 0.5);
+
+}
+
+.green-box img {
+  margin-top: 2rem;
+  max-height: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-text {
+  margin: 8rem 0rem 0rem 0rem;
+  font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
   footer {
     padding: 3rem 0rem 3rem 3rem;
     margin-top: 179px;
@@ -222,14 +275,19 @@ nav {
     width: 100%;
   }
 
+  .red-box,
+  .green-box,
+  .blue-box
+  .green-box2 {
+    margin: 2rem;
+  }
+
   footer {
     padding: 3rem 0rem 3rem 1rem;
     margin-top: 79px;
     background-color: black;
     color: white;
   }
-
-
 
   .footer-logo img {
     max-width: 3rem;
@@ -255,10 +313,21 @@ nav {
     font-size: 20px;
   }
 
-  h2 {
+ main h2 {
     font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 36px;
+    font-size: 24px;
     max-width: 80%;
+  }
+
+    main h1 {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem;
   }
 
 

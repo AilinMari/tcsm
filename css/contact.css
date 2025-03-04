@@ -38,31 +38,10 @@ main {
     font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.green-box2 {
-  background-color: hwb(49 29% 45% / 0.5);
-padding: 2rem 20rem;
-}
+@media (max-width: 1000px) {
 
-.header-box {
-    background-color: rgba(164, 206, 248, 0.5) ;
-    width: 100%;
-    padding: 0 0 5rem 0;
+    textarea {
+        width: 50vw;
+    }
+    
 }
-
-.contact-us {
-display: grid;
-grid-template-columns: 1fr 1fr;
-padding: 0 2rem 2rem 0;
-}
-
-.contact-us h1 {
-    /* position: relative; */
-}
-
-.contact-us p {
-    top: 50%;
-    position: relative;
-    padding: 0 2rem 2rem 0;
-    font-size: 20px;
-}
-
