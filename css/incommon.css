@@ -213,6 +213,7 @@ nav {
   header {
     background-color: black;
     max-width: 100%;
+    object-fit: cover;
   }
 
   #menu-checkbox:checked ~ nav {
@@ -258,9 +259,13 @@ nav {
 
   .active {
     background-color: #8c2214;
+    padding: 0.5rem;
+    border-radius: 5px;
   }
   nav a:hover {
     background-color: #8c2214;
+    padding: 0.5rem;
+    border-radius: 5px;
   }
 
   .logo img {
@@ -272,7 +277,8 @@ nav {
   }
 
   .header-pic img {
-    width: 100%;
+    /* width: 100%; */
+    object-fit: cover;
   }
 
   .red-box,
