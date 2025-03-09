@@ -1,4 +1,5 @@
 # Trondheim Community Science Museum
+![image](https://github.com/user-attachments/assets/ad4ed0c5-5627-4c78-9d41-d95b00205db3)
 
 ## Brief description
 This was our Semester Project 1 in front-end development. Here we got tested in our skills with HTML, CSS and our designer skills and planning in Figma. We also needed to show that we could make a responsive and userfriendly website.
